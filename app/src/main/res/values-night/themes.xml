@@ -1,0 +1,65 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.QuickNotes" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/light_black</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/light_black</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/gray</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!-- Night Mode-->
+    <style name="Smooth_Black_Screen_Style">
+        <item name="android:background">@color/smooth_black</item>
+    </style>
+
+    <style name="Light_Black_layout_style">
+        <item name="android:background">@color/light_black</item>
+    </style>
+
+    <style name="White_Black_Color_Style">
+        <item name="android:textColor">@color/gray</item>
+    </style>
+
+    <style name="White_Black_Image_Style">
+        <item name="android:tint">@color/gray</item>
+    </style>
+
+    <style name="Edit_Text_Full_Style">
+        <item name="borderWidth">0dp</item>
+        <item name="android:background">@color/light_black</item>
+        <item name="android:textColor">@color/gray</item>
+        <item name="hintTextColor">@color/gray</item>
+    </style>
+
+    <style name="Menu_Theme_Style">
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Dark</item>
+        <item name="android:background">@color/light_black</item>
+    </style>
+
+    <style name="Layout_Image_Visibility_Style">
+        <item name="tint">@color/light_black</item>
+        <item name="android:textColor">@color/light_black</item>
+    </style>
+
+    <style name="Setting_Layout_Back_Style">
+        <item name="android:background">@color/light_black</item>
+    </style>
+
+    <style name="Setting_Layout_Text_Style">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Setting_Switch_Mode_Style">
+        <item name="android:thumbTint">@color/gray</item>
+        <item name="android:trackTint" tools:ignore="NewApi">#E7E7E7</item>
+    </style>
+
+
+</resources>

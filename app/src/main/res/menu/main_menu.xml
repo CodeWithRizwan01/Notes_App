@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/opt_search"
+        android:title="Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
+    <item
+        android:id="@+id/opt_bin"
+        android:title="Recycler Bin"
+        android:icon="@drawable/ic_outline_delete"
+        app:showAsAction="withText"
+        />
+    <item
+        android:id="@+id/opt_archive"
+        android:title="Archive"
+        android:icon="@drawable/ic_outline_archive"
+        app:showAsAction="withText"
+        />
+    <item
+        android:id="@+id/opt_setting"
+        android:title="Setting"
+        android:icon="@drawable/ic_outline_settings_24"
+        app:showAsAction="withText"
+        />
+
+
+</menu>

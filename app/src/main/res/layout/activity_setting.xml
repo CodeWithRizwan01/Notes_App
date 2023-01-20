@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/Smooth_Black_Screen_Style"
+    tools:context=".SettingActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/settingBar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        tools:ignore="MissingConstraints">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tb_settingToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark"
+            style="@style/Menu_Theme_Style"
+            />
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/settingBar"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            android:id="@+id/firstLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="20dp"
+            android:layout_marginTop="40dp"
+            style="@style/Setting_Layout_Back_Style"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dark Mode"
+                android:textSize="16sp"
+                style="@style/Setting_Layout_Text_Style"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                />
+
+            <Switch
+                android:id="@+id/switchMode"
+                style="@style/Setting_Switch_Mode_Style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                tools:ignore="UseSwitchCompatOrMaterialXml" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/secondLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="20dp"
+            android:layout_marginTop="2dp"
+            style="@style/Setting_Layout_Back_Style"
+            android:layout_below="@id/firstLayout"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Terms of Services"
+                android:textSize="16sp"
+                style="@style/Setting_Layout_Text_Style"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/thirdLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="20dp"
+            android:layout_marginTop="2dp"
+            style="@style/Setting_Layout_Back_Style"
+            android:layout_below="@id/secondLayout"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cookies Policy"
+                android:textSize="16sp"
+                style="@style/Setting_Layout_Text_Style"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/fourthLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="20dp"
+            android:layout_marginTop="2dp"
+            style="@style/Setting_Layout_Back_Style"
+            android:layout_below="@id/thirdLayout"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Third-party Notices"
+                android:textSize="16sp"
+                style="@style/Setting_Layout_Text_Style"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/fifthLayout"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="20dp"
+            android:layout_marginTop="2dp"
+            style="@style/Setting_Layout_Back_Style"
+            android:layout_below="@id/fourthLayout"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Send Feedback"
+                android:textSize="16sp"
+                style="@style/Setting_Layout_Text_Style"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>
