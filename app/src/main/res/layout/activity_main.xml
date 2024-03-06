@@ -54,13 +54,13 @@
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
         android:layout_alignParentEnd="true"
-        android:src="@drawable/ic_baseline_add_24"
-        android:layout_marginBottom="25dp"
-        android:layout_marginEnd="25dp"
-        />
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="37dp"
+        android:backgroundTint="@color/purple_500"
+        android:src="@drawable/plus" />
 
 </RelativeLayout>

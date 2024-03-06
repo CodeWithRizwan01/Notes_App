@@ -11,7 +11,7 @@
         />
     <item
         android:id="@+id/opt_bin"
-        android:title="Recycler Bin"
+        android:title="Trash"
         android:icon="@drawable/ic_outline_delete"
         app:showAsAction="withText"
         />

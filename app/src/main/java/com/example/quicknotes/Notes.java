@@ -22,8 +22,8 @@ public class Notes {
     public static final String DELETE_TABLE = "DeleteTable";
 
     public static final String CREATE_DELETE_TABLE = String.format("CREATE TABLE IF NOT EXISTS %s (%s INTEGER PRIMARY KEY , %s TEXT, %s TEXT)", DELETE_TABLE, KEY_ID, KEY_TITLE, KEY_MESSAGE);
-    public static final String DROP_DELETE_TABLE = "DROP TABLE IF EXISTS "+DELETE_TABLE;
-    public static final String SELECT_DELETE_TABLE = "SELECT * FROM "+DELETE_TABLE;
+    public static final String DROP_DELETE_TABLE = "DROP TABLE IF EXISTS " + DELETE_TABLE;
+    public static final String SELECT_DELETE_TABLE = "SELECT * FROM " + DELETE_TABLE;
 
     // Archived Table
     public static final String ARCHIVE_TABLE = "ArchiveTable";
